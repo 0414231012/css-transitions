@@ -1,0 +1,53 @@
+body {
+    background-color: darkblue;
+}
+
+.nav {
+    background-color: blue;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    position: relative; 
+    top: 0px;
+}
+
+.nav a:hover {
+    background-color: darkblue;
+    top: -5px;
+    transition: 300ms ease;
+}
+
+h1 {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.gallery {
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.gallery img {
+    margin: 10px;
+    border-radius: 20px;
+    width: 200px;
+}
+
+.gallery img:hover {
+    transform: scale(1.1) rotate(10deg) translateY(-20px);
+    transition: 0.3s ease;
+}
